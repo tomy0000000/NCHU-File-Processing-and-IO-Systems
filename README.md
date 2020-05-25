@@ -34,6 +34,16 @@
 
 > *Doing File I/O by Standard C Library, File I/O System Calls and Memory-Mapped Files*
 
+* Measure the time of following six I/O access scenarios
+
+  * 25*220 sequantial 4B-sized copy-write with C stdio library calls
+  * 25*210 sequential 4KB-sized copy-write with C stdio library calls
+  * 25*220 sequantial 4B-sized copy-write with POSIX system calls
+
+  * 25*210 sequential 4KB-sized copy-write with POSIX system calls
+  * 25*220 sequantial 4B-sized copy-write with memory-mapped file
+  * 25*210 sequential 4KB-sized copy-write with memory-mapped file
+
 ## Homework 4
 
 > *Searching a file*
