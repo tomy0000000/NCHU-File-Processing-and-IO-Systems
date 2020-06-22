@@ -47,3 +47,10 @@
 > *Searching a file*
 
 * Implement a simple version of unix `find` command
+
+## Homework 5
+
+> *FTP Server*
+
+* Implement a simple version of FTP protocal server with `pthread` & `select()`, and a corresponding client
+
