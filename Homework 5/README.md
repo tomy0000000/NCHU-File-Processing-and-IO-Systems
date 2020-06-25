@@ -46,3 +46,14 @@ gcc main.c -o client
   * `cd`: open directory
   * `download [filename]`: download `[filename]` from current session directory at server to local
   * `upload [filename]`: upload `[filename]` from local to current session directory at server
+
+## Demo
+
+* Server side
+
+[![server_demo](server.gif)](https://asciinema.org/a/343161)
+
+* Client side
+
+[![client_demo](client.gif)](https://asciinema.org/a/343160)
+
